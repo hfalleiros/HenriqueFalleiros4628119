@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: arial;
+}
+
+h1 {
+    background-color: #84A058;
+    color: #545E75;
+    text-align: center;
+
+}
+
+.container {
+    display: grid;
+}
+
+header, footer {
+    grid-column-start: 1;
+    grid-column-end: 12;
+    background-color: #545E75;
+}
+
+.menu {
+    grid-column-start: 6;
+    grid-column-end: 12;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+
+.portrait {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+}
+
+.principal {
+    grid-column-start: 3;
+    grid-column-end: 12;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: justify;
+
+}
+
+footer {
+    grid-column-start: 1;
+    grid-column-end: 12;
+    
+}
+
+ul {
+    list-style-type: none;
+    color: #755A54;
+}
+
+a, a:link {
+    text-decoration: none;
+    padding: 8px 16px;
+    border: solid #366DF5 1px;
+    background-color: #84A058;
+    color: #545E75
+}
+
+li {
+    float: left;
+}
+
+a:hover {
+    background-color: #545E75;
+    color: #84A058;
+}
